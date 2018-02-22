@@ -1,0 +1,26 @@
+{   nodePath            : Text
+  , nodeArgs            : List Text
+
+  , nodeDbPath          : Text
+  , nodeLogConfig       : Text
+  , nodeLogPath         : Text
+
+  , walletPath          : Text
+  , walletArgs          : List Text
+
+  , updaterPath         : Text
+  , updaterArgs         : List Text
+  , updateArchive       : Optional Text
+  , updateWindowsRunner : Optional Text
+
+  , nodeTimeoutSec      : Integer
+  , reportServer        : Text
+  , launcherLogsPrefix  : Text
+
+  , configuration       :
+      { filePath    : Text
+      , key         : Text
+      , systemStart : Optional Integer
+      , seed        : Optional Integer
+      }
+}
